@@ -24,6 +24,7 @@
 		},
 		"circuit" : {
 			"mould" : {
+				"setEachYear" : true,
 				"prevalence" : "circuit/bau_prevalence",
 				"diseaseEffects" : {
 					"incidence" : {
@@ -51,10 +52,17 @@
 				}
 			}
 		},
-		"reduce_10" : {
+		"flat_10" : {
 			"circuit" : {
 				"mould" : {
 					"prevalence" : "circuit/reduce_mould_10"
+				}
+			}
+		},
+		"per_year_10" : {
+			"circuit" : {
+				"mould" : {
+					"prevalence" : "circuit/reduce_10_per_year"
 				}
 			}
 		}
