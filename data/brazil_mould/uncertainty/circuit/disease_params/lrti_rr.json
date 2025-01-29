@@ -1,0 +1,5 @@
+{
+	"colUncertainty" : {
+		"mould" : {"distType" : "LogNormal", "min" : 1, "sd" : 0.104068094}
+	}
+}
